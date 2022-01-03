@@ -1384,6 +1384,9 @@ span.arrow {
   .work {
     height: auto;
   }
+  .work .work-item .img-website .conteiner {
+    width: 100%;
+  }
   .work .work-item .img-website img {
     height: auto;
   }
@@ -1431,6 +1434,7 @@ span.arrow {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
