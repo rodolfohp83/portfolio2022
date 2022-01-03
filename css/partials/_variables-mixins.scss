@@ -66,11 +66,11 @@ $color-principal: #06EAD4;
     color: $color-principal;  
     margin-left: 20px;
     bottom: 0;
-    line-height: 0;
     text-align: center;
 }
 
 @mixin btn {
+  font-weight: bolder;
   border-radius: 50px;
   background-color: $color-principal;  
   color: #0f0d1f;

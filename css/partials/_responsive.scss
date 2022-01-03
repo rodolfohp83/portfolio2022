@@ -12,6 +12,96 @@
             display: block;
         }
     }
+
+    .header {
+		.container {
+            justify-content: center;
+			.navbar {
+				display: none;
+			}
+		}
+	}
+    .activo {
+            padding: 20px 0 60px 0;
+    }
+
+	.main {
+		.container {
+			height: 90vh;
+			position: relative;
+			.hero {
+				.title {
+					font-size: 4em;
+					text-align: center;
+					span {
+						margin-left: 30px;
+					}
+				}
+				.text-based {
+					text-align: center;
+					margin-top: 50px;
+				}
+			}
+			.social {
+				bottom: 10px;
+			}
+		}
+	}
+
+    .work {
+        height: auto;
+        .work-item {
+            .img-website {
+                img {
+                    height: auto;
+                }
+                &::before {
+                    outline: none;
+                }
+            }
+        }
+    }
+    .about {
+        background-position: right;
+        .container {
+            flex-direction: column-reverse;
+            justify-content: center;
+            .about-me {
+                width: 100%;
+            }
+        }
+    }
+    .enterprise {
+        .container {
+            flex-wrap: wrap;
+            .enterprise-item {
+                width: 50%;
+            }
+        }
+    }
+    .process {
+        .container {
+            .process-contein {
+                .process-row {
+                    .process-item-1, .process-item-2 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .container {
+            flex-direction: column;
+            .left {
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+            .right {
+                justify-content: space-between;
+            }
+        }
+    }
 }
 @media (max-width: 992px) {}
 @media (max-width: 1024px) {}
