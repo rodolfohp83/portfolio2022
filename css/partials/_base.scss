@@ -130,18 +130,27 @@ body {
 		.hero {
 			z-index: 800;
 			.title {
+				font-weight: 900;
 				font-family: $fontPrimary; 
 				font-weight: bold;
 				font-size: 8em;
 				color: $color-principal;
 				line-height: 0.8em;
+				
+			}
+			.title-2 {
+				font-size: 8em;
+				font-style: italic;
+				color: #fff; 
+				-webkit-text-fill-color: transparent;
+				-webkit-text-stroke-width: 2px;
+				font-weight: 900;
+				line-height: 1em;
 				span {
-					font-style: italic;
-					margin-left: -30px;
-					color: #fff; 
-					-webkit-text-fill-color: transparent;
-					-webkit-text-stroke-width: 2px;
-					margin-left: 150px;
+					color: $color-principal;
+					-webkit-text-fill-color: $color-principal;
+					font-family: arial;
+					margin-left: 30px;
 				}
 			}
 			.text-based {

@@ -477,6 +477,7 @@ body .scroll-up:hover {
 }
 
 .main .container .hero .title {
+  font-weight: 900;
   font-family: "modernist";
   font-weight: bold;
   font-size: 8em;
@@ -484,13 +485,21 @@ body .scroll-up:hover {
   line-height: 0.8em;
 }
 
-.main .container .hero .title span {
+.main .container .hero .title-2 {
+  font-size: 8em;
   font-style: italic;
-  margin-left: -30px;
   color: #fff;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
-  margin-left: 150px;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+.main .container .hero .title-2 span {
+  color: #06EAD4;
+  -webkit-text-fill-color: #06EAD4;
+  font-family: arial;
+  margin-left: 30px;
 }
 
 .main .container .hero .text-based {
