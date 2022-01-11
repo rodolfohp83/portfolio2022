@@ -86,8 +86,14 @@
         .container {
             .process-contein {
                 .process-row {
+                    margin: 30px 0;
                     .process-item-1, .process-item-2 {
                         width: 100%;
+                        margin: 15px 0;
+                    }
+                    .process-item-1 {
+                        text-align: left;
+                        flex-direction: row-reverse;
                     }
                 }
             }

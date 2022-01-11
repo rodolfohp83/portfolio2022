@@ -41,7 +41,8 @@
     width: 70px;
     height: 70px;
     border: 10px solid #06EAD4;
-    border-top: 10px solid #0f0d1f;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
     border-radius: 50%;
     animation-name: girar;
     animation-duration: 2s;
@@ -50,10 +51,13 @@
     margin: 0 auto;
   }
   @keyframes girar {
-    from {
+    0% {
       transform: rotate(0deg);
     }
-    to {
+    50% {
+      transform: rotate(180deg) scale(1.2);
+    }
+    100% {
       transform: rotate(360deg);
     }
   }
